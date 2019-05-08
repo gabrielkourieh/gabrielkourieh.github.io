@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "utf-8";
 
 body{
@@ -13,12 +14,22 @@ img{
       position: fixed;
       width: 20rem !important;
       height: 300px;
+=======
+img{
+      position: fixed;
+      width: 20rem !important;
+>>>>>>> e9e61af64ef9744f7031c8f81fad651b038545fb
       margin: 100px;
       padding: 10px 10px;
       color: black;
       background-color: black;
+<<<<<<< HEAD
       top: 400px;
       left: 60px;
+=======
+      top: 100px;
+      left: 500px;
+>>>>>>> e9e61af64ef9744f7031c8f81fad651b038545fb
     }
 
 *{
