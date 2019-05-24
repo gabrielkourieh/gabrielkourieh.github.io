@@ -1,0 +1,104 @@
+body {
+  background:url(femtebild.jpg) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;;
+  -o-background-size:cover;
+  background-size:cover;
+  }
+.menu {
+  margin-top:2%;
+  float:right;
+  max-width:100%;
+  }
+.menu ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  position:relative;
+  display:inline-table;
+  }
+       
+.menu > ul > li {
+  display:inline-block;
+  margin:0 auto;
+  font-size:90%;;
+  }
+       
+.menu ul li a {
+  font-family:'Oswald', sans-serif;
+  display:block;
+  text-decoration:none;
+  text-transform:uppercase;
+  background-color:  rgba(0,0,0,0.8);
+  color: whitesmoke;
+  margin:1px;
+  z-index:1;
+  -webkit-transition: box-shadow 1s ease-out,color 2s;
+  -moz-transition: box-shadow 1s ease-out,color 2s;
+  -o-transition: box-shadow 1s ease-out,color 2s;
+  transition: box-shadow 1s ease-out,color 2s;
+  }
+
+.menu ul li > a:hover {
+  -webkit-box-shadow: inset 0px 0px 0px 200px rgba(62,192,179,1);;
+  -moz-box-shadow: inset 0px 0px 0px 200px rgba(62,192,179,1);
+  box-shadow: inset 0px 0px 0px 200px rgba(62,192,179,1);
+  color:#111;
+}
+       
+.menu ul li > a {
+  padding:50px 50px;
+  }
+       
+.menu ul ul {
+  display:none;
+  position:absolute;
+  top:10%;left:10%;
+  width:80%;
+  }
+       
+.menu ul li:hover > ul {
+  display:block;
+}
+       
+.menu ul ul > li a {
+  padding:25px 10px;
+  text-align:center;
+  height:auto;
+  background-color:#fff;
+  margin:0 auto;
+  color: silver;
+  border-bottom:1px dashed #aaa;
+  -webkit-box-shadow: 0px 5px 0px 0px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 5px 0px 0px rgba(255,255,255,1);
+  box-shadow: 0px 5px 0px 0px rgba(255,255,255,1);
+  }
+
+.Hit:hover .fa-home,
+.Hit .fa-heart {
+  display: none;font-size:20px;
+  }
+
+.Hit:hover .fa-heart {
+  display: inline;float:left;-webkit-animation: bounce 2.5s infinite;
+  -moz-animation: bounce 2.5s infinite;
+  animation: bounce 2.5s infinite;;
+  }
+
+@-webkit-keyframes bounce {
+         
+  50% {
+    -webkit-transform:rotateY(90deg);color:magenta;
+   }
+         
+  }
+
+
+ @media screen and (max-width: 768px) {
+    
+ }
+
+
+
+
+
